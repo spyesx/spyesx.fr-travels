@@ -88,9 +88,9 @@
 					</p>
 
 					<p>
-						I wanted to learn and to work so I started by a point. I draw a route on the 
+						I wanted to learn and to work so I started by a point. I drew a route on the 
 						globe by being in search of my life and my future, learning about myself as much as I learned about others. 
-						Today, I have the feeling that I found a lot. Guess what! It makes me want to explore even more.
+						Today I have the feeling that I found a lot. Guess what! It makes me want to explore even more.
 					</p>
 
 					<p>
