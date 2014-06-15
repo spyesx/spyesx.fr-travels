@@ -47,11 +47,13 @@
 		  	<dt></dt>
 		    <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
 		    <dd data-magellan-arrival="contact"><a href="#contact">Contact</a></dd>
-		    <dd data-magellan-arrival="where-I-am-now"><a href="#where-I-am-now">Where I am now</a></dd>
-		    <dd data-magellan-arrival="where-I-planned-to-go"><a href="#where-I-planned-to-go">Where I planned to go</a></dd>
-		    <dd data-magellan-arrival="where-I-want-to-go-or-go-back"><a href="#where-I-want-to-go-or-go-back">Where I want to go or go back</a></dd>
-		    <dd data-magellan-arrival="where-I-have-been"><a href="#where-I-have-been">Where I've been</a></dd>
+		    <dd data-magellan-arrival="where-I-am-now"><a href="#where-I-am-now">Now</a></dd>
+		    <dd data-magellan-arrival="where-I-planned-to-go"><a href="#where-I-planned-to-go">Tomorrow</a></dd>
+		    <dd data-magellan-arrival="where-I-want-to-go-or-go-back"><a href="#where-I-want-to-go-or-go-back">Wishes</a></dd>
+		    <dd data-magellan-arrival="where-I-have-been"><a href="#where-I-have-been">Yesterday</a></dd>
 		    <dd data-magellan-arrival="tools"><a href="#tools">Tools</a></dd>
+		    <dd data-magellan-arrival="you-know-youre-a-traveler-when"><a href="#you-know-youre-a-traveler-when">Traveler?</a></dd>
+		    <dd data-magellan-arrival="comments"><a href="#comments">Your voice</a></dd>
 		  </dl>
 		</div>
 
@@ -285,6 +287,33 @@
 			<article class="row">
 				<div class="columns large-12">
 					<header>
+						<p><a name="you-know-youre-a-traveler-when"></a></p>
+						<h2 data-magellan-destination="you-know-youre-a-traveler-when">You know you are a traveler when</h2>
+					</header>
+
+					<p>
+						Lexie Koss and I started this list when we were on a bus in Cambodia. It was a 7h journey from Kratie to  Kampong Cham. At the begining it was just a way 
+						to spend time on something fun. As she left to go back home I kept writing it on the road.
+					</p>
+
+					<ol>
+						<?php
+							include('php/you_now_you_are_a_traveler_when.php');
+							$html_evidences = '';
+							foreach ($traveler_evidences as $evidence) {
+								$html_evidences .= '<li>'.$evidence.'</li>';
+							}
+							echo $html_evidences;
+						?>
+					</ol>
+					<div class="clear">&nbsp;</div>
+				</div>
+				<div class="clear">&nbsp;</div>
+			</article>
+
+			<article class="row">
+				<div class="columns large-12">
+					<header>
 						<p><a name="tools"></a></p>
 						<h2 data-magellan-destination="tools">Tools</h2>
 					</header>
@@ -298,7 +327,37 @@
 			</article>
 
 
+			<article class="row">
+				<div class="columns large-12">
+					<header>
+						<p><a name="comments"></a></p>
+						<h2 data-magellan-destination="comments">Comments</h2>
+					</header>
+
+				    <div id="disqus_thread"></div>
+				    <script type="text/javascript">
+				        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				        var disqus_shortname = 'spyesxfr'; // required: replace example with your forum shortname
+
+				        /* * * DON'T EDIT BELOW THIS LINE * * */
+				        (function() {
+				            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				        })();
+				    </script>
+				    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+				    
+
+					<div class="clear">&nbsp;</div>
+				</div>
+				<div class="clear">&nbsp;</div>
+			</article>
+
 		</div>
+
+
 
 
 		<footer>
@@ -306,21 +365,21 @@
 		</footer>
 
 
-<script type="text/javascript">
+	<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-4005134-2']);
-  _gaq.push(['_trackPageview']);
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-4005134-2']);
+	  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
-</script>
-<!-- AddThis Welcome BEGIN -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=spyesx"></script>
+	</script>
+	<!-- AddThis Welcome BEGIN -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=spyesx"></script>
 
 
     <script src="<?php echo ENV; ?>/js/vendors/foundation/vendor/jquery.js"></script>
@@ -329,6 +388,20 @@
     <script>
       $(document).foundation();
     </script>
+
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'spyesxfr'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+
 	</body>
 </html>
 
