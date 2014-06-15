@@ -169,7 +169,7 @@
 						<p>
 							The Intha fisherman <a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/gallery/travel-portraits-week-2/">has been selected</a> 
 							on the second week by National Geographic. I really need your vote to win this contest! Please 
-							<a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/rate/travel-portraits-week-2/#/244411">visit the voting page</a> 
+							<a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/rate/travel-portraits-week-2/#/244411">visit the page to vote</a> 
 							and give a rate to your favorite photo. I need a good rate to win, over than 8. The result will be delivered in June this year.
 						</p>
 						<p>
@@ -337,7 +337,7 @@
 					<p>Let's add a public place to talk!</p>
 
 					<p>
-						“Your voice” is available since the 15th of June, 2014. Feel free to give advises, comments, contacts and more.
+						“Your voice” is available since the 15th of June, 2014. Feel free to give advises, comments, contacts, feebacks and more.
 					</p>
 
 					<section class="socialnetwork-share socialnetwork-share-top">
