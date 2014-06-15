@@ -53,7 +53,13 @@ class Countries_Controller
 
 	public function listing($countries, $showDates = true)
 	{
-		$html = false;
+		$html = '';
+
+		if(count($countries) == 0)
+		{
+			return $html;
+		}
+
 		foreach($countries as $country)
 		{
 			$date_range = '';

@@ -1,12 +1,13 @@
 <?php
-	require_once('dates.lib.php');
-	require_once('countries.datas.php');
-	require_once('countries.controller.php');
+	include('php/config.php');
+
+	require_once('php/dates.lib.php');
+	require_once('php/countries.datas.php');
+	require_once('php/countries.controller.php');
 
 	$countries = new Countries_Controller($datas_countries);
 	$sortered_countries = $countries->sorter_categories();
 ?>
-
 
 <!DOCTYPE html>
 <!--
@@ -28,8 +29,8 @@
 		<link rel="canonical" href="http://spyesx.fr/travels/" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link type="text/css" href="assets/vendors/foundation/css/foundation.min.css" rel="stylesheet" media="screen" />
-		<link type="text/css" href="assets/app/css/style.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="<?php echo ENV; ?>/css/vendors/foundation/foundation.min.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="<?php echo ENV; ?>/css/app/style.css" rel="stylesheet" media="screen" />
 
 		<meta property="og:title" content="Nico's travels" />
 		<meta property="og:description" content="I travel for the silence, the light and the smell. I travel to understand and to be understood." />
@@ -64,7 +65,7 @@
 								Hello I'm <a href="http://spyesx.fr">Nico</a>', a french travel lover :)
 							</h1>
 							<figure>
-								<img src="assets/img/nicolas_bages_nepal_anapurnas.jpg" width="100%" alt="Annapurna, Nepal">
+								<img src="<?php echo ENV; ?>/img/nicolas_bages_nepal_anapurnas.jpg" width="100%" alt="Annapurna, Nepal">
 							</figure>
 					</header>
 					<section class="socialnetwork-share socialnetwork-share-top">
@@ -121,7 +122,7 @@
 						like to share! If you are interested in meeting me, if you think we have something to share, please, have a 
 						look at the list bellow and send me a place to go by mail at nicolas.bages@spyesx.fr or directly from 
 						<a href="https://www.couchsurfing.org/profile.html?id=FMAGLLP" class="couchsurfing-link">
-							<img src="assets/img/cs-icon.png" alt="Nicolas's CS profile" width="20" />
+							<img src="<?php echo ENV; ?>/img/cs-icon.png" alt="Nicolas's CS profile" width="20" />
 							couchsurfing
 						</a>. Be careful anyway. We could become friends!
 					</p>
@@ -135,7 +136,7 @@
 					<section id="nationalgeographic-contest">
 						<header>
 							<h2>
-								<img src="assets/img/ng_traveler_logo_2014.png" alt="National Geographic Photo Contest 2014">
+								<img src="<?php echo ENV; ?>/img/ng_traveler_logo_2014.png" alt="National Geographic Photo Contest 2014">
 							</h2>
 						</header>
 						<p>
@@ -189,10 +190,10 @@
 						<h2 data-magellan-destination="contact">How to contact me?</h2>
 					</header>
 					<ul id="social-networks">
-						<li><a href="https://www.facebook.com/spyesx"><img src="assets/img/facebook-icon.png" width="20" alt="Nicolas's Facebook profile" /> Facebook</a></li>
-						<li><a href="https://www.couchsurfing.org/profile.html?id=FMAGLLP"><img src="assets/img/cs-icon.png" width="20" alt="Nicolas's CS profile" /> CouchSurfing</a></li>
-						<li><a href="http://www.flickr.com/photos/spyesx/"><img src="assets/img/flickr-icon.png" width="20" alt="Nicolas's Fickr profile" /> Flickr</a></li>
-						<li><a href="mailto:nicolas.bages@spyesx.fr"><img src="assets/img/mail-icon.png" width="20" alt="Nicolas's email" /> eMail</a></li>
+						<li><a href="https://www.facebook.com/spyesx"><img src="<?php echo ENV; ?>/img/facebook-icon.png" width="20" alt="Nicolas's Facebook profile" /> Facebook</a></li>
+						<li><a href="https://www.couchsurfing.org/profile.html?id=FMAGLLP"><img src="<?php echo ENV; ?>/img/cs-icon.png" width="20" alt="Nicolas's CS profile" /> CouchSurfing</a></li>
+						<li><a href="http://www.flickr.com/photos/spyesx/"><img src="<?php echo ENV; ?>/img/flickr-icon.png" width="20" alt="Nicolas's Fickr profile" /> Flickr</a></li>
+						<li><a href="mailto:nicolas.bages@spyesx.fr"><img src="<?php echo ENV; ?>/img/mail-icon.png" width="20" alt="Nicolas's email" /> eMail</a></li>
 					</ul>
 					<div class="clear">&nbsp;</div>
 				</div>
@@ -322,9 +323,9 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=spyesx"></script>
 
 
-    <script src="assets/vendors/foundation/js/vendor/jquery.js"></script>
-    <script src="assets/vendors/foundation/js/foundation.min.js"></script>
-    <script src="assets/vendors/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="<?php echo ENV; ?>/js/vendors/foundation/vendor/jquery.js"></script>
+    <script src="<?php echo ENV; ?>/js/vendors/foundation/foundation.min.js"></script>
+    <script src="<?php echo ENV; ?>/js/vendors/foundation/foundation/foundation.magellan.js"></script>
     <script>
       $(document).foundation();
     </script>
