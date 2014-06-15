@@ -71,5 +71,5 @@ $traveler_evidences = array(
 	"The local friend you met on the road suprises you by visiting you… on the road.",
 	"You have no route but an expiration day on your visa",
 	"Your friends go back home and say “I use drawers” and you use Google image to remind you how a drawer looks like!",
-	"You know you're a traveler when you're back home for 4 days and you didn't get your backpack empty. 'Cause you know... we never know :p I even found myself putting back the toothbrush in the plastic bag this morning!",
+	"You're back home for 4 days and you didn't get your backpack empty. 'Cause you know... we never know :p I even found myself putting back the toothbrush in the plastic bag this morning!",
 );
