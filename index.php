@@ -51,8 +51,8 @@
 		    <dd data-magellan-arrival="where-I-planned-to-go"><a href="#where-I-planned-to-go">Tomorrow</a></dd>
 		    <dd data-magellan-arrival="where-I-want-to-go-or-go-back"><a href="#where-I-want-to-go-or-go-back">Wishes</a></dd>
 		    <dd data-magellan-arrival="where-I-have-been"><a href="#where-I-have-been">Yesterday</a></dd>
-		    <dd data-magellan-arrival="tools"><a href="#tools">Tools</a></dd>
 		    <dd data-magellan-arrival="you-know-youre-a-traveler-when"><a href="#you-know-youre-a-traveler-when">Traveler?</a></dd>
+		    <dd data-magellan-arrival="tools"><a href="#tools">Tools</a></dd>
 		    <dd data-magellan-arrival="comments"><a href="#comments">Your voice</a></dd>
 		  </dl>
 		</div>
@@ -331,8 +331,27 @@
 				<div class="columns large-12">
 					<header>
 						<p><a name="comments"></a></p>
-						<h2 data-magellan-destination="comments">Comments</h2>
+						<h2 data-magellan-destination="comments">Your voice!</h2>
 					</header>
+
+					<p>Let's add a public place to talk!</p>
+
+					<p>
+						“Your voice” is available since the 15th of June, 2014. Feel free to give advises, comments, contacts and more.
+					</p>
+
+					<section class="socialnetwork-share socialnetwork-share-top">
+						<!-- AddThis Button BEGIN -->
+						<div class="addthis_toolbox addthis_default_style ">
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_button_tweet"></a>
+						<a class="addthis_button_google_plusone" g:plusone:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+						<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=spyesx"></script>
+						<!-- AddThis Button END -->
+					</section>
 
 				    <div id="disqus_thread"></div>
 				    <script type="text/javascript">
