@@ -109,7 +109,7 @@
 					<p>
 						As a <abbr title="User eXperience">UX</abbr> designer, I apply the methods and process I use 
 						every day to find new ideas and new solutions to solve new problems. It's amazing how impressive it is 
-						to discover new point of view. 
+						to discover a new point of view. 
 					</p>
 
 					<p>
