@@ -214,7 +214,7 @@
 		array(
 			'name' => 'France',
 			'datein' => '2014-07-20 01:30:00',
-			'dateout' => '2014-07-2 01:30:00',
+			'dateout' => '2014-07-22 01:30:00',
 		),
 		array(
 			'name' => 'United Kingdom',
@@ -224,11 +224,11 @@
 		array(
 			'name' => 'France',
 			'datein' => '2014-09-04 01:30:00',
-			'dateout' => '2014-09-16 01:30:00',
+			'dateout' => '2014-09-15 01:30:00',
 		),
 		array(
 			'name' => 'Iceland',
-			'datein' => '2014-09-16 01:30:00',
+			'datein' => '2014-09-15 01:30:00',
 			'dateout' => '2014-09-30 01:30:00',
 		),
 		array(

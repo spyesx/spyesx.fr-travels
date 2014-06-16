@@ -240,11 +240,13 @@
 						<p><a name="where-I-planned-to-go"></a></p>
 						<h2 data-magellan-destination="where-I-planned-to-go">Where I planned to go</h2>
 					</header>
-					<?php echo $countries->listing($sortered_countries['plan']); ?>
 					<p>
 						I'd love to meet you and hangout. Please 
 						<span data-magellan-arrival="contact"><a href="#contact">contact me</a></span>.
+						<br />
+						Dates are supposed to change without prior notice. It's up to you to contact me early enough!
 					</p>
+					<?php echo $countries->listing($sortered_countries['plan']); ?>
 					<div class="clear">&nbsp;</div>
 				</div>
 				<div class="clear">&nbsp;</div>
