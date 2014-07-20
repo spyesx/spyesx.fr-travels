@@ -278,9 +278,9 @@
 				</div>
 				<div class="clear">&nbsp;</div>
 				<figure  class="map">
-					<img src="http://chart.apis.google.com/chart?cht=map:fixed=-70,-180,80,180&chs=450x300&chf=bg,s,336699&chco=d0d0d0,cc0000&chd=s:99999999999999999999999999999999&chld=AT|FR|IE|IT|MC|ES|CH|GB|BO|AR|BR|CA|PE|KH|IN|JP|LA|MY|MM|NP|PH|SG|KR|TW|TH|VN|AU|NZ|NL|MX|US|PT" width="450" height="300" >
+					<img src="http://chart.apis.google.com/chart?cht=map:fixed=-70,-180,80,180&chs=450x300&chf=bg,s,336699&chco=d0d0d0,cc0000&chd=s:999999999999999999999999999999999&chld=AT|FR|IE|IT|MC|ES|CH|GB|BO|AR|BR|CA|PE|KH|IN|JP|LA|MY|MM|NP|PH|SG|KR|TW|TH|VN|AU|NZ|NL|MX|US|PT|VA" width="450" height="300" >
 					<figcaption>
-						Visited 32 states (14.2%)<br/>
+						Visited 33 states (14.6%)<br/>
 						<a href="http://douweosinga.com/projects/visited?region=world">Create your own visited map of The World</a>
 					</figcaption>
 				</figure>
