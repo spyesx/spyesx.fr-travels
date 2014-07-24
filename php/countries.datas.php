@@ -219,12 +219,27 @@
 		array(
 			'name' => 'France',
 			'datein' => '2014-07-20 01:30:00',
-			'dateout' => '2014-07-22 01:30:00',
+			'dateout' => '2014-08-05 01:30:00',
+		),
+		array(
+			'name' => 'Spain',
+			'datein' => '2014-08-06 01:30:00',
+			'dateout' => '2014-08-12 01:30:00',
+		),
+		array(
+			'name' => 'France',
+			'datein' => '2014-08-12 01:30:00',
+			'dateout' => '2014-08-15 01:30:00',
+		),
+		array(
+			'name' => 'Netherland',
+			'datein' => '2014-08-15 01:30:00',
+			'dateout' => '2014-08-17 01:30:00',
 		),
 		array(
 			'name' => 'United Kingdom',
-			'datein' => '2014-07-22 01:30:00',
-			'dateout' => '2014-09-04 01:30:00',
+			'datein' => '2014-08-18 01:30:00',
+			'dateout' => '2014-08-24 01:30:00',
 		),
 		array(
 			'name' => 'France',
