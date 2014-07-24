@@ -147,7 +147,7 @@
 						</p>
 						<figure class="columns large-6">
 							<figcaption>
-								Intha fisherman on Inle lake - <a class="call-to-action" href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/rate/travel-portraits-week-2/#/244411">Vote now!</a>
+								Intha fisherman on Inle lake
 							</figcaption>
 							<a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/244411/view/">
 								<img src="http://travel.nationalgeographic.com/u/TvyamNb-BivtNwcoxtkc5xGBuGkIMh_nj4UJHQKuoXEuxL4n6WqdQpCelJGdEb-2qdsLWxa_je0B0A/" alt="Intha fisherman on Inle lake">
@@ -163,19 +163,13 @@
 						</figure>
 						<div class="clear">&nbsp;</div>
 						<p>
-							You and I spent the last 19 month travelling the world together through these pictures. Now we have the opportunity 
+							You and I spent 19 month travelling the world together through these pictures. Now we have the opportunity 
 							to keep going and live an extraordinary adventure.
 						</p>
 						<p>
-							The Intha fisherman <a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/gallery/travel-portraits-week-2/">has been selected</a> 
-							on the second week by National Geographic. I really need your vote to win this contest! Please 
-							<a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/rate/travel-portraits-week-2/#/244411">visit the page to vote</a> 
-							and give a rate to your favorite photo. I need a good rate to win, over than 8. The result will be delivered in June this year.
-						</p>
-						<p>
-							By offering your support you can be a part of the <a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/prizes/">3 Grand Prizes</a>, 
-							all travel oriented. 
-							<a class="call-to-action" href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/rate/travel-portraits-week-2/#/244411">Vote now!</a>
+							The Intha fisherman has been selected on the second week by National Geographic. Thank to all of you for your votes and 
+							support until the last second! The result will be delivered at the end of July this year.
+							I'll publish it here :)
 						</p>
 					</section>
 
