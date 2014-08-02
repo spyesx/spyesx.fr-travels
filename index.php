@@ -162,14 +162,10 @@
 							</a>
 						</figure>
 						<div class="clear">&nbsp;</div>
-						<p>
-							You and I spent 19 month travelling the world together through these pictures. Now we have the opportunity 
-							to keep going and live an extraordinary adventure.
-						</p>
+						<p><a href="http://travel.nationalgeographic.com/travel/traveler-magazine/photo-contest/2014/entries/gallery/winners-winners/">The result is online :)</a></p>
 						<p>
 							The Intha fisherman has been selected on the second week by National Geographic. Thank to all of you for your votes and 
-							support until the last second! The result will be delivered at the end of July this year.
-							I'll publish it here :)
+							support until the last second! Unfortunately we didn't win this year. Be sure I'll propose a new photo in 2015!
 						</p>
 					</section>
 
