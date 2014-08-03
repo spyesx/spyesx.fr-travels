@@ -199,8 +199,9 @@
 						<h2 data-magellan-destination="where-I-am-now">Where I am now</h2>
 					</header>
 					<p>
-						I just finished a 18 month world tour. Now I'm back to Europe and projects make me think 
-						a Europe tour is coming! As usual, this trip isn't about going somewhere, take some pictures 
+						The world tour is done! 19 month on the road :)
+						Since I'm back to Europe, projects made me think about a Europe tour started in July 2014!
+						As usual, this trip isn't about going somewhere, take some pictures 
 						and leave as fast as I came. I want to discover new sport, local cooking, stories and more. 
 						It's also about to meet you, your friends, your lifestyle and why not your job.
 					</p>
