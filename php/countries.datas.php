@@ -229,7 +229,7 @@
 		array(
 			'name' => 'United Kingdom',
 			'datein' => '2014-08-18 01:30:00',
-			'dateout' => '2014-08-24 01:30:00',
+			'dateout' => '2014-09-03 01:30:00',
 		),
 		array(
 			'name' => 'France',
