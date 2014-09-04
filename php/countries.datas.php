@@ -242,6 +242,16 @@
 			'dateout' => '2014-09-30 01:30:00',
 		),
 		array(
+			'name' => 'Hong Kong',
+			'datein' => '2014-10-10 01:30:00',
+			'dateout' => '2015-01-02 01:30:00',
+		),
+		array(
+			'name' => 'Philippines',
+			'datein' => '2015-01-20 01:30:00',
+			'dateout' => '2015-02-05 01:30:00',
+		),
+		array(
 			'name' => 'Australia',
 			'datein' => '',
 			'dateout' => '',
