@@ -199,11 +199,8 @@
 						<h2 data-magellan-destination="where-I-am-now">Where I am now</h2>
 					</header>
 					<p>
-						The world tour is done! 19 month on the road :)
-						Since I'm back to Europe, projects made me think about a Europe tour started in July 2014!
-						As usual, this trip isn't about going somewhere, take some pictures 
-						and leave as fast as I came. I want to discover new sport, local cooking, stories and more. 
-						It's also about to meet you, your friends, your lifestyle and why not your job.
+						The world tour is done, the Europe tour is done, now I'm in Hong-Kong for 3 month!
+						Feel free to message me if you want to hangout, to go hiking or if you have a nice open space to work on my projects :)
 					</p>
 					<?php echo $countries->listing($sortered_countries['now']); ?>
 
